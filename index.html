@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/header.js"></script>
+    <script src="js/section.js"></script>
+</head>
+<body>
+  <div class="container">
+<!-- header -->
+    <header>
+<!-- page header -->      
+        <div id="page_header">
+          <input class="search" type="search"/>
+          <i class="fa fa-search search_img fa-lg"></i>  
+<!--login reg-->     
+          <div id="my_login">
+            <a href="#my_login" data-toggle="modal" data-target="#myModal">|登录</a>
+            <a href="#my_reg">注册|</a>
+          </div>
+<!-- login  -->          
+
+<!--nav-->
+      <nav id="nav_1">
+        <div id="my_nav" class="navbar  navbar-expand-md">
+          <div class="nav_logo navbar-brand">
+              <img class="logo" src="image/logo.png" alt="">
+          </div>
+<!--小屏幕下右侧的按钮-->
+          <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#content">
+<!--Ξ-->       <span class="navbar-toggler-icon"></span>
+          </button>
+<!--第二部分 导航栏菜单项，大屏幕平铺，小屏幕隐藏-->
+          <div id="content" class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="">首页</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">产品文化</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">展品分类</a>
+              </li>              
+              <li class="nav-item">
+                <a class="nav-link" href="">展品信息</a>
+              </li>              
+              <li class="nav-item">
+                <a class="nav-link" href="">服务</a>
+              </li>             
+               <li class="nav-item">
+                <a class="nav-link" href="">联系我们</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+<!-- section -->
+    <section>
+<!--carousel-->
+      <div id="my_carousel">
+        <img src="image/slider-img-1.jpg" alt="1">
+        <img src="image/slider-img-2.jpg" alt="2">
+        <img src="image/slider-img-3.jpg" alt="3">
+      </div>
+<!-- arrow -->
+      <a class="arrow" href="javascript:;">
+        <img src="image/icon/arrow.png" alt="">
+      </a>
+<!-- floor_one -->
+      <div class="down">
+        <h1>Category</h1>
+        <a href="#floor_two">
+          <img src="image/icon/arrow_1.png" alt="">
+        </a>
+      </div>
+      <div id="floor_one">
+        <div class="about">
+          <h1>About</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptatibus deleniti atque dolore id tempora repellendus ex nesciunt! Minus est atque explicabo laborum numquam harum eius dignissimos eaque facilis rem.
+          </p>
+        </div>
+      <div class="introduce row">
+      <div class="left_img col-xl-5 col-lg-5 col-md-12 col-sm-12 col-sm-12">
+        <img src="image/features.png" alt="">
+      </div>
+      <div class="content col-xl-5 col-lg-5 col-md-12 col-sm-12 col-sm-12">
+            <h1>标题一</h1>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate asperiores soluta blanditiis nisi sit vel at id doloribus eos doloremque voluptatum cupiditate reiciendis repellendus numquam animi optio eius ipsam saepe!
+            </p>
+      </div>
+    </div>
+      </div>
+<!-- floor_two -->
+      <div class="down">
+        <h1>Category</h1>
+        <a href="#floor_three">
+          <img src="image/icon/arrow_1.png" alt="">
+        </a>
+      </div>
+      <div class="carousel slide" id="floor_two" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cardcase">
+              <img src="image/c-1.jpg" alt="">
+              <p>
+                Lorem i consequuntur quis debitis perferendis nobis magnam qui necessitatibus laudantium sint optio quidem commodi corporis quasi eligendi iste?
+              </p>
+              <p>111111111111</p>
+              <p>1111111111111</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+              <div class="cardcase">
+                <img src="image/c-2.jpg" alt="">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ducimus unde repellendus odio consequuntur quis debitis perferendis nobis magnam qui necessitatibus laudantium sint optio quidem commodi corporis quasi eligendi iste?
+                </p>
+                <p>2222222222</p>
+                <p>222222222</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cardcase">
+              <img  src="image/c-3.jpg" alt="">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ducimus unde repellendus odio consequuntur quis debitis perferendis nobis magnam qui necessitatibus laudantium sint optio quidem commodi corporis quasi eligendi iste?
+              </p>
+              <p>eligendi</p>
+              <p>eligendi</p>
+            </div>
+          </div>
+<!--导航标识符-->
+          <ul class="carousel-indicators col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+            <li class="active" data-target="#floor_two" data-slide-to="0"></li>
+            <li data-target="#floor_two" data-slide-to="1"></li>
+            <li data-target="#floor_two" data-slide-to="2"></li>
+          </ul>
+        </div>
+      </div>
+<!-- floor_three -->
+      <div class="down">
+        <h1>Category</h1>
+        <a href="#floor_four">
+          <img src="image/icon/arrow_1.png" alt="">
+        </a>
+      </div>
+      <div id="floor_three">
+        <a href="" class="link">
+          check out my lastest portfolio items
+        </a>
+        <div class="exhibit">
+          <div class="img_group">
+            <a href="">
+              <img src="image/w1.jpg" alt="">
+            </a>
+            <div>
+              <h2>Character Desing</h2>
+              <h6>2016.3.12</h6>
+            </div>
+          </div>
+          <div class="img_group">
+            <a href="">
+              <img src="image/w2.jpg" alt="">
+            </a>
+            <div>
+              <h2>Character Desing</h2>
+              <h6>2016.3.12</h6>
+            </div>
+          </div>
+          <div class="img_group">
+            <a href="">
+              <img src="image/w3.jpg" alt="">
+            </a>
+            <div>
+              <h2>Character Desing</h2>
+              <h6>2016.3.12</h6>
+            </div>
+          </div>
+          <div class="img_group">
+              <a href="">
+                <img src="image/w1.jpg" alt="">
+              </a>
+              <div>
+                <h2>Character Desing</h2>
+                <h6>2016.3.12</h6>
+              </div>
+          </div>
+          <div class="img_group">
+            <a href="">
+              <img src="image/w2.jpg" alt="">
+            </a>
+            <div>
+              <h2>Character Desing</h2>
+              <h6>2016.3.12</h6>
+            </div>
+          </div>
+          <div class="img_group">
+            <a href="">
+              <img src="image/w3.jpg" alt="">
+            </a>
+            <div>
+              <h2>Character Desing</h2>
+              <h6>2016.3.12</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- floor_four -->
+      <div class="down">
+        <h1>Category</h1>
+        <a href="#floor_five">
+          <img src="image/icon/arrow_1.png" alt="">
+        </a>
+      </div>
+      <div id="floor_four">
+        <div class="pic_text row">
+          <div class="accordion col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <h1 class="ac_title">&nbsp;标题一</h1>
+                <div class="ac_content">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt laboriosam ex consequatur quo quis debitis suscipit officia distinctio. Iure ipsum fugiat, quod quasi facilis commodi corrupti ut possimus animi tempora!
+                </div>
+                <h1 class="ac_title">&nbsp;标题二</h1>
+                <div class="ac_content">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt laboriosam ex consequatur quo quis debitis suscipit officia distinctio. Iure ipsum fugiat, quod quasi facilis commodi corrupti ut possimus animi tempora!
+                </div>
+                <h1 class="ac_title">&nbsp;标题三</h1>
+                <div class="ac_content">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt laboriosam ex consequatur quo quis debitis suscipit officia distinctio. Iure ipsum fugiat, quod quasi facilis commodi corrupti ut possimus animi tempora!
+                </div>
+          </div>
+          <div id="right_img" class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+              <img src="image/left_top1.jpg" alt="">
+              <img src="image/left_top2.jpg" alt="">
+              <img src="image/left_top3.jpg" alt="">
+              <img src="image/left_top4.jpg" alt="">
+
+          </div>
+        </div>
+      </div>
+<!-- floor_five -->
+      <div class="down">
+        <h1>Category</h1>
+        <a href="#floor_six">
+          <img src="image/icon/arrow_1.png" alt="">
+        </a>
+      </div>
+      <div id="floor_five">
+        <div class="sudoku row">
+          <div class="row col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="grid col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+              <img src="image/w1.jpg" alt="">
+            </div>
+            <div class="grid col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+              <img src="image/w1.jpg" alt="">
+            </div>
+            <div class="grid col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+              <img src="image/w1.jpg" alt="">
+            </div>
+          </div>
+          <div class="row col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="grid col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <img src="image/w1.jpg" alt="">
+              </div>
+              <div class="grid col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <img src="image/w1.jpg" alt="">
+              </div>
+              <div class="grid col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <img src="image/w1.jpg" alt="">
+              </div>
+          </div>
+          <div class="row col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="grid col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <img src="image/w1.jpg" alt="">
+              </div>
+              <div class="grid col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <img src="image/w1.jpg" alt="">
+              </div>
+              <div class="grid col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <img src="image/w1.jpg" alt="">
+              </div>
+          </div>
+        </div>
+      </div>
+<!-- floor_six -->
+      <div class="down">
+        <h1>Category</h1>
+        <a href="#last">
+          <img src="image/icon/arrow_1.png" alt="">
+        </a>
+      </div>
+      <div id="floor_six">
+        <ul id="tab" class="nav nav-tabs tab_title">
+          <li class="active">
+            <a href="#page_1" data-toggle="tab">标题1</a>
+          </li>
+          <li class="">
+            <a href="#page_2" data-toggle="tab">标题2</a>
+          </li>
+          <li class="">
+            <a href="#page_3" data-toggle="tab">标题3</a>
+          </li>
+          <li class="">
+            <a href="#page_4" data-toggle="tab">标题4</a>
+          </li>
+        </ul>
+        <div id="tabContent" class="tab-content">
+          <div class="tab-pane fade active show row" id="page_1">
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                  <img src="image/timg.jpg" alt="">
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quod ratione itaque. </p>
+                <button>
+                  lore
+                </button>
+              </div>
+          </div>
+          <div class="tab-pane fade row" id="page_2">
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                  <img src="image/timg.jpg" alt="">
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quod ratione itaque. </p>
+                <button>
+                  lore
+                </button>
+              </div>
+          </div>
+          <div class="tab-pane fade row" id="page_3">
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                  <img src="image/timg.jpg" alt="">
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quod ratione itaque. </p>
+                <button>
+                  lore
+                </button>
+              </div>
+            </div>
+            <div class="tab-pane fade row" id="page_4">
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                  <img src="image/timg.jpg" alt="">
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quod ratione itaque. </p>
+                <button>
+                  lore
+                </button>
+              </div>
+            </div>
+        </div>
+      </div>
+<!-- floor_seven -->
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog login_modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">
+                        请登录 :
+                    </h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                  <div class="form_top row">
+                      <div class="col-3">用户名:</div>
+                      <div class="col-9">
+                          <input type="text" name="name" id="name" placeholder=" 请输入您的用户名">
+                      </div>
+                  </div>
+                  <div class="form_bottom row">
+                      <div class="col-3">密码:</div>
+                      <div class="col-9">
+                          <input  type="password" name="pwd" id="pwd" placeholder="  请输入您的密码">
+                      </div>
+
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">提交
+                  </button>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                  </button>
+                </div>
+            </div><!-- /.modal-content -->
+        
+        </div><!-- /.modal -->
+    </div>
+
+
+    </section>
+<!-- last -->
+    <div id="last">
+      <div class="la_title">
+        <h2>CONTACT US</h2>
+        <p>
+          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam
+        </p>
+      </div>
+      <form action="">
+        <div class="form_group">
+          <label for="name">姓名:</label>
+          <input type="text" name="name" id="name" placeholder="  请输入您的姓名">
+        </div>
+        <div class="form_group">
+          <label for="email">邮箱:</label>
+          <input type="text" name="email" id="email" placeholder="  请输入您的邮箱">
+        </div>
+        <div class="form_group">
+          <label for="phone">手机:</label>
+          <input type="text" name="phone" id="phone" placeholder="  请输入您的手机号码">
+        </div>
+        <div class="form_group">
+          <label for="message">信息:</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <button class="submit">
+          提&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;交         
+        </button>
+      </form>
+    </div>
+<!-- footer -->
+    <footer id="my_footer">
+      <div class="fo_title">
+        <h1>THANKS FOR VISITING US</h1>
+        <hr size="100px" width="100%">
+      </div>
+      <div class="fo_content row">
+        <div class="fo_group col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <h3>Information</h3>
+          <div class="info">
+            <a href="">
+              <i class="fa fa-map-marker fa-lg"></i> 
+              77 Jack Street
+            </a>
+          </div>
+          <div class="info">
+              <a href="">
+                <i class="fa fa-volume-control-phone fa-lg"></i> 
+                +00 1010101010              
+              </a>
+          </div>
+          <div class="info">
+            <a href="">
+              <i class="fa fa-envelope fa-lg"></i> 
+              email2@example.com
+            </a>
+          </div>
+        </div>
+        <div class="fo_group col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <h3>Support Us</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint cumque laborum tenetur. Vero ipsam qui quasi reprehenderit consequatur, nam quidem quod, provident officia magni cum, sequi repellendus ab id voluptate.
+          </p>
+          <div class="font">
+            <i class="fa fa-envelope fa-lg"></i> 
+            <i class="fa fa-envelope fa-lg"></i> 
+            <i class="fa fa-envelope fa-lg"></i> 
+            <i class="fa fa-envelope fa-lg"></i> 
+            <i class="fa fa-envelope fa-lg"></i> 
+          </div>
+        </div>
+        <div class="fo_group col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+            <h3>Newsletter</h3>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <button class="la_btn">感谢</button>
+        </div>
+      </div>
+      <hr size="10px">
+    </footer>
+  </div>
+</body>
+</html>
